@@ -1,0 +1,181 @@
+{
+  "projects": [
+    {
+      "title": "Intelligent Research Assistant",
+      "tag": "AI / ML",
+      "year": "2025",
+      "desc": "LLM-powered assistant for academic research workflows.",
+      "long": "An AI assistant that ingests papers, summarizes findings, and answers contextual questions using a custom RAG pipeline with vector search. Built as a student researcher tool to accelerate literature review.",
+      "tech": ["Python", "LangChain", "PostgreSQL", "Claude"],
+      "color": "from-violet-500 to-fuchsia-500",
+      "pattern": "radial-gradient(circle at 20% 20%, rgba(168,85,247,0.6), transparent 50%), radial-gradient(circle at 80% 70%, rgba(236,72,153,0.5), transparent 50%)"
+    },
+    {
+      "title": "ML Pipeline Automator",
+      "tag": "ML Eng",
+      "year": "2025",
+      "desc": "End-to-end ML training & deployment workflow on AWS.",
+      "long": "An automated pipeline orchestrating data ingestion, model training, evaluation, and deployment to AWS. Includes n8n workflow triggers and a lightweight monitoring dashboard.",
+      "tech": ["Python", "AWS", "n8n", "Docker"],
+      "color": "from-sky-500 to-cyan-400",
+      "pattern": "radial-gradient(circle at 30% 30%, rgba(14,165,233,0.6), transparent 55%), radial-gradient(circle at 80% 80%, rgba(34,211,238,0.5), transparent 50%)"
+    },
+    {
+      "title": "DSA Visualizer",
+      "tag": "Software",
+      "year": "2024",
+      "desc": "Interactive visualizer for classic algorithms & data structures.",
+      "long": "A teaching tool that animates sorting, graph, and tree algorithms step-by-step. Used by peers to build intuition for DSA fundamentals.",
+      "tech": ["Java", "Python", "Git"],
+      "color": "from-amber-400 to-rose-500",
+      "pattern": "radial-gradient(circle at 25% 25%, rgba(251,191,36,0.55), transparent 55%), radial-gradient(circle at 75% 75%, rgba(244,63,94,0.55), transparent 50%)"
+    },
+    {
+      "title": "OpenClaw Game Mod",
+      "tag": "Software",
+      "year": "2024",
+      "desc": "Custom levels & feature contributions to OpenClaw.",
+      "long": "Contributed game mechanics and bug fixes to the open-source OpenClaw engine, working in C++ with a focus on physics tuning and level design tooling.",
+      "tech": ["C++", "OpenClaw", "Git"],
+      "color": "from-emerald-400 to-teal-500",
+      "pattern": "radial-gradient(circle at 30% 30%, rgba(52,211,153,0.6), transparent 55%), radial-gradient(circle at 80% 70%, rgba(20,184,166,0.5), transparent 50%)"
+    },
+    {
+      "title": "Linux Network Lab",
+      "tag": "Systems",
+      "year": "2024",
+      "desc": "Hands-on lab covering OS internals, networking & databases.",
+      "long": "A sandbox environment for exploring Linux internals, computer networking protocols, MySQL & PostgreSQL administration — paired with curated notes.",
+      "tech": ["Linux", "MySQL", "PostgreSQL"],
+      "color": "from-indigo-500 to-blue-500",
+      "pattern": "radial-gradient(circle at 30% 25%, rgba(99,102,241,0.6), transparent 55%), radial-gradient(circle at 75% 80%, rgba(59,130,246,0.55), transparent 50%)"
+    },
+    {
+      "title": "AgentOps with Claude Code",
+      "tag": "AI / ML",
+      "year": "2025",
+      "desc": "Multi-agent dev workflow using Claude Code & GitHub.",
+      "long": "An experimental setup that pairs Claude Code with GitHub-based automation to run scoped engineering tasks: scaffolding, code review, and refactor suggestions.",
+      "tech": ["Claude Code", "GitHub", "Python"],
+      "color": "from-pink-500 to-orange-400",
+      "pattern": "radial-gradient(circle at 25% 30%, rgba(236,72,153,0.6), transparent 55%), radial-gradient(circle at 80% 70%, rgba(251,146,60,0.55), transparent 50%)"
+    }
+  ],
+  "milestones": [
+    {
+      "icon": "Rocket",
+      "year": "2025",
+      "title": "Student Researcher",
+      "org": "AI & ML Research",
+      "desc": "Exploring applied machine learning, RAG systems, and LLM tooling."
+    },
+    {
+      "icon": "Briefcase",
+      "year": "2025",
+      "title": "ML Engineer Projects",
+      "org": "Independent",
+      "desc": "Building production-style ML pipelines on AWS with Python and n8n."
+    },
+    {
+      "icon": "Award",
+      "year": "2024",
+      "title": "Open-Source Contributor",
+      "org": "OpenClaw & community repos",
+      "desc": "Shipping fixes and features across community projects on GitHub."
+    },
+    {
+      "icon": "Sparkles",
+      "year": "2023",
+      "title": "Started CS Journey",
+      "org": "University",
+      "desc": "Began deep diving into DSA, OS, CN, and database systems."
+    }
+  ],
+  "counters": [
+    { "value": 20, "label": "Projects shipped", "suffix": "+" },
+    { "value": 8, "label": "Languages & tools", "suffix": "+" },
+    { "value": 3, "label": "Years coding", "suffix": "+" },
+    { "value": 100, "label": "Commitment", "suffix": "%" }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Cloud Practitioner",
+      "org": "Amazon Web Services",
+      "year": "2024",
+      "cat": "Cloud",
+      "color": "from-amber-400 to-orange-500"
+    },
+    {
+      "title": "Machine Learning Specialization",
+      "org": "Coursera",
+      "year": "2024",
+      "cat": "AI / ML",
+      "color": "from-pink-500 to-rose-500"
+    },
+    {
+      "title": "Python for Data Science",
+      "org": "IBM",
+      "year": "2024",
+      "cat": "AI / ML",
+      "color": "from-violet-500 to-indigo-500"
+    },
+    {
+      "title": "Data Structures & Algorithms",
+      "org": "NPTEL",
+      "year": "2023",
+      "cat": "Engineering",
+      "color": "from-sky-500 to-cyan-400"
+    },
+    {
+      "title": "Linux & Shell Scripting",
+      "org": "Udemy",
+      "year": "2023",
+      "cat": "Systems",
+      "color": "from-emerald-400 to-teal-500"
+    },
+    {
+      "title": "SQL — MySQL & PostgreSQL",
+      "org": "HackerRank",
+      "year": "2023",
+      "cat": "Engineering",
+      "color": "from-fuchsia-500 to-purple-500"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Venu approaches problems like a researcher and ships like an engineer — a rare combination at this stage.",
+      "name": "Project Mentor",
+      "role": "Faculty Advisor",
+      "initials": "FA",
+      "color": "from-violet-500 to-fuchsia-500"
+    },
+    {
+      "quote": "He picks up new tools — AWS, n8n, Claude Code — in days and turns them into real working pipelines.",
+      "name": "Peer Reviewer",
+      "role": "Team Lead, Hackathon",
+      "initials": "PR",
+      "color": "from-amber-400 to-rose-500"
+    },
+    {
+      "quote": "Solid fundamentals in DSA and systems. Code reviews from Venu always leave the codebase cleaner.",
+      "name": "Open-Source Maintainer",
+      "role": "GitHub",
+      "initials": "OS",
+      "color": "from-sky-500 to-cyan-400"
+    },
+    {
+      "quote": "An ML engineer who actually understands the math AND the infra. Refreshing.",
+      "name": "Study Group Lead",
+      "role": "AI/ML Cohort",
+      "initials": "SG",
+      "color": "from-emerald-400 to-teal-500"
+    },
+    {
+      "quote": "Reliable, curious, and fast. Exactly the kind of collaborator every team wants.",
+      "name": "Project Collaborator",
+      "role": "Capstone",
+      "initials": "PC",
+      "color": "from-pink-500 to-orange-400"
+    }
+  ]
+}
